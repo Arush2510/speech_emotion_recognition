@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load the trained model
-model = joblib.load('C:/Users/Lenovo/Desktop/Speech Emotion Recognition/emotion_model.pkl')
+model = joblib.load('emotion_model.pkl')
 
 # App title
 st.title("🎤 Speech Emotion Recognition App")
